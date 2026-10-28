@@ -94,7 +94,7 @@ class LoginScreenState extends State<LoginScreen> {
               children: [
                 ActionChip(
                   avatar: const Icon(Icons.cloud_done, size: 16, color: Colors.blue),
-                  label: const Text('Conveyor Cloud (smallgreycar40)'),
+                  label: const Text('Conveyor Cloud (longyellowwave47)'),
                   onPressed: () => controller.text = ConfigUrl.defaultConveyorUrl,
                 ),
               ],

@@ -2,10 +2,10 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ConfigUrl {
-  static const String defaultConveyorUrl = "https://smallgreycar40.conveyor.cloud/api/";
-  static const String defaultEmulatorUrl = "https://smallgreycar40.conveyor.cloud/api/";
-  static const String defaultLanUrl = "https://smallgreycar40.conveyor.cloud/api/";
-  static const String defaultLocalhostUrl = "https://smallgreycar40.conveyor.cloud/api/";
+  static const String defaultConveyorUrl = "https://longyellowwave47.conveyor.cloud/api/";
+  static const String defaultEmulatorUrl = "https://longyellowwave47.conveyor.cloud/api/";
+  static const String defaultLanUrl = "https://longyellowwave47.conveyor.cloud/api/";
+  static const String defaultLocalhostUrl = "https://longyellowwave47.conveyor.cloud/api/";
 
   static String _currentBaseUrl = "";
 

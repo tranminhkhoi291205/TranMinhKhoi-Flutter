@@ -12,11 +12,11 @@ Hệ thống Quản trị & Chấm công Doanh nghiệp Đa nền tảng (Mobile
 
 | Kênh kết nối | Base URL API | Swagger Documentation |
 |---|---|---|
-| **Conveyor Cloud (Internet)** | `https://smallgreycar40.conveyor.cloud/api/` | [Xem Swagger](https://smallgreycar40.conveyor.cloud/swagger/) |
+| **Conveyor Cloud (Internet)** | `https://longyellowwave47.conveyor.cloud/api/` | [Xem Swagger](https://longyellowwave47.conveyor.cloud/swagger/) |
 
 Cấu hình mặc định trong file `.env`:
 ```env
-BASE_URL=https://smallgreycar40.conveyor.cloud/api/
+BASE_URL=https://longyellowwave47.conveyor.cloud/api/
 ```
 
 ---
