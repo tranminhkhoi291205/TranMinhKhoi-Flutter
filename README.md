@@ -8,19 +8,11 @@ Hệ thống Quản trị & Chấm công Doanh nghiệp Đa nền tảng (Mobile
 
 ---
 
-## 1. Danh Sách API Chính Thức & Dự Phòng
+## 1. API Chính Thức
 
-Ứng dụng hỗ trợ kết nối đa kênh linh hoạt, đảm bảo luôn luôn hoạt động trong mọi môi trường (qua Internet, mạng Wi-Fi LAN nội bộ hoặc máy ảo Android):
-
-| Kênh kết nối | Mục đích | Base URL API | Swagger Documentation |
-|---|---|---|---|
-| **Conveyor Cloud (Internet)** | Chấm bài & truy cập từ xa qua mạng 4G/Internet | `https://smallgreycar40.conveyor.cloud/api/` | [Xem Swagger](https://smallgreycar40.conveyor.cloud/swagger/) |
-| **Wi-Fi LAN (Dự phòng khuyên dùng khi Demo)** | Điện thoại & Laptop kết nối cùng 1 Wi-Fi, không lo mất mạng | `http://192.168.1.3:5145/api/` | `http://192.168.1.3:5145/swagger/` |
-| **Android Emulator (Giả lập)** | Chạy máy ảo Android Studio trên cùng máy tính | `http://10.0.2.2:5145/api/` | `http://10.0.2.2:5145/swagger/` |
-| **Localhost** | Chạy kiểm thử trên máy tính Windows | `http://localhost:5145/api/` | `http://localhost:5145/swagger/` |
-
-> [!TIP]
-> **Đổi API tức thì trên màn hình Đăng nhập:** Tại góc trên bên phải màn hình Đăng nhập của ứng dụng, nhấn vào biểu tượng **⚙️ (Bánh răng cài đặt)** để chọn nhanh giữa các kênh kết nối trên mà không cần phải cài đặt lại app.
+| Kênh kết nối | Base URL API | Swagger Documentation |
+|---|---|---|
+| **Conveyor Cloud (Internet)** | `https://smallgreycar40.conveyor.cloud/api/` | [Xem Swagger](https://smallgreycar40.conveyor.cloud/swagger/) |
 
 Cấu hình mặc định trong file `.env`:
 ```env

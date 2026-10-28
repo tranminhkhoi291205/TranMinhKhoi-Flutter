@@ -94,20 +94,8 @@ class LoginScreenState extends State<LoginScreen> {
               children: [
                 ActionChip(
                   avatar: const Icon(Icons.cloud_done, size: 16, color: Colors.blue),
-                  label: const Text('Conveyor Cloud (Chính)'),
+                  label: const Text('Conveyor Cloud (smallgreycar40)'),
                   onPressed: () => controller.text = ConfigUrl.defaultConveyorUrl,
-                ),
-                ActionChip(
-                  label: const Text('Emulator (10.0.2.2)'),
-                  onPressed: () => controller.text = ConfigUrl.defaultEmulatorUrl,
-                ),
-                ActionChip(
-                  label: const Text('Wi-Fi LAN (192.168.1.3)'),
-                  onPressed: () => controller.text = ConfigUrl.defaultLanUrl,
-                ),
-                ActionChip(
-                  label: const Text('Localhost (5145)'),
-                  onPressed: () => controller.text = ConfigUrl.defaultLocalhostUrl,
                 ),
               ],
             ),

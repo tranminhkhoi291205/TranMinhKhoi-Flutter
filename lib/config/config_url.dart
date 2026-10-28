@@ -3,9 +3,9 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class ConfigUrl {
   static const String defaultConveyorUrl = "https://smallgreycar40.conveyor.cloud/api/";
-  static const String defaultEmulatorUrl = "http://10.0.2.2:5145/api/";
-  static const String defaultLanUrl = "http://192.168.1.3:5145/api/";
-  static const String defaultLocalhostUrl = "http://localhost:5145/api/";
+  static const String defaultEmulatorUrl = "https://smallgreycar40.conveyor.cloud/api/";
+  static const String defaultLanUrl = "https://smallgreycar40.conveyor.cloud/api/";
+  static const String defaultLocalhostUrl = "https://smallgreycar40.conveyor.cloud/api/";
 
   static String _currentBaseUrl = "";
 
