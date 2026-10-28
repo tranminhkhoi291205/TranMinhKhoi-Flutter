@@ -4,7 +4,7 @@ Hệ thống Quản trị & Chấm công Doanh nghiệp Đa nền tảng (Mobile
 - Họ tên sinh viên: **Trần Minh Khôi**  
 - MSSV: **2380601106**  
 - Lớp: **23DTHC3 - CNTT - HUTECH**  
-- **Repository Backend (C# .NET 9)**: [https://github.com/tranminhkhoi291205/appCC.git](https://github.com/tranminhkhoi291205/appCC.git)
+- **Repository Backend (C# .NET 9)**: [https://github.com/tranminhkhoi291205/TranMinhKhoi.git](https://github.com/tranminhkhoi291205/TranMinhKhoi.git)
 
 ---
 
